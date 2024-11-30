@@ -1,0 +1,174 @@
+* {
+    margin: 0 auto;
+}
+
+header{
+    width: 1000px;
+    height: 100px;
+    background-color: #485E6F;
+    display: flex;
+}
+
+.menu-icone{
+    display: none;
+}
+
+nav{
+    width: 1000px;
+    height: 50px;
+    background-color: #485E6F;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    float: left;
+    margin: 0px;
+    padding-left: 0px;
+}
+.menu li{
+    width: 100px;
+    margin: 0px 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.menu li:hover{
+    background-color: #2f414e;
+}
+.menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+main{
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caixa{
+    display: flex;
+    margin: 10px;
+}
+
+.texto{
+    padding: 10px;
+}
+h1{
+    color: #485E6F;
+    text-align: center;
+    font-size: 58px;
+    font-family: "Road Rage", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border:solid rgb(226, 226, 226) 2px;
+    border-radius:50%;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+}
+
+.img-mobile{
+    display: none;
+}
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: #485E6F;
+}
+
+@media screen and (max-device-width: 450px){
+    header{
+        width: 400px;
+        height: 60px;
+        display: flex;
+    }
+
+    .logo{
+        flex: 80%;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .menu-icone{
+        display: block;
+    }
+
+    .menu-mobile{
+        width: 400px;
+        height: 200px;
+        background-color: #485E6F;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .menu-mobile .menu{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .menu-mobile .menu li{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 15px 0px;
+        border-radius: 0px;
+    }
+
+    main{
+        width: 400px;
+    }
+
+    .imagem{
+        display: none;
+    }
+
+    h1{
+        font-size: 46px;
+    }
+
+    footer{
+        width: 400px;
+    }
+
+    .img-mobile{
+        display: block;
+    }
+
+    div.carousel{
+        display: none;
+    }
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    margin: 10px;
+}
+
+.autora-img{
+    flex: 40%;
+}
+.texto{
+    flex: 60%;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+    color: #485e6f;
+    font-size: 20px;
+    display: flex;
+    margin-right: 0;
+    flex-wrap: wrap;
+    transition: transform 1s;
+}
+
+button:hover{
+    color: #5edfff;
+    transform: translateY(-2px);
+}
+
+button::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #5edfff;
+    transition: width 1s;
+}
+  
+button:hover::after {
+    width: 100%;
+}
+
+@media screen and (max-device-width: 450px){
+    .info{
+        flex-direction: column;
+    }
+}

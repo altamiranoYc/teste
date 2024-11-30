@@ -1,0 +1,104 @@
+*{
+    margin: 0 auto;
+}
+
+.menu-botao1 button{
+    background-color: transparent;
+    color: #485E6F;
+    border: 1px  #485E6F;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+.menu-botao1 button:hover{
+    background-color: #485E6F;
+    color: white;
+    border: 0;
+}
+
+.submenu{
+    width: 80px;
+    display: none; 
+    background-color:transparent;
+    text-align: center;
+    position: absolute;
+}
+
+.menu-botao1:hover .submenu{
+    display: block;
+}
+
+.submenu a{
+    display: block;
+    color:  #485E6F;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.submenu a:hover{
+    background-color:  #485E6F;
+    color: white;
+}
+
+.sobre{
+    margin: 10px;
+    display: flex;
+}
+.livro-img{
+    flex: 40%;
+    
+}
+.sobre-livro{
+    flex: 60%;
+}
+
+h1{
+    font-size: 42px;
+    color: #485E6F;
+    text-align: center;
+    margin: 5px;
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;}
+
+p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.acesso{
+    display: flex;
+    flex-direction: column;
+}
+.acesso div{
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+}
+
+button.botao2{
+    color: #485E6F;
+    border: 1px  #485E6F;
+    background-color: transparent;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 5px;
+    transition: transform 0.7s;
+}
+
+button.botao2:hover{
+    background-color: #485E6F;
+    transform: translateY(-3px);
+    color: white;
+}
+@media screen and (max-device-width: 450px) {
+    .sobre{
+        flex-direction: column;
+    }
+
+    button.botao2{
+        width: 350px;
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberta-me</title>
+    <link rel="stylesheet" href="conf.css">
+    <link rel="stylesheet" href="estilhacame.css">
+    <script src="https://kit.fontawesome.com/99451e1fb0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Jockey+One&family=Nova+Flat&family=Nova+Square&family=Passero+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo" href="index.html">
+        </div>
+        <div class="menu-icone" onclick="alternarMenu();">
+            <img id="icone" src="menu.png" alt="menu">
+        </div>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="autora.html">Autora</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-mobile" id="links">
+        <ul class="menu">
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="autora.html">Autora</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="menu-botao1">
+            <button>
+                <i class="fa-solid fa-globe"></i>
+                Idioma
+            </button>
+            <div class="submenu">
+                <a href="">Português</a>
+                <a href="">Inglês</a>
+            </div>
+        </div>
+        <div class="sobre">
+            <div class="livro-img">
+                <img src="libertame.webp" alt="">
+            </div>
+            <div class="sobre-livro">
+                <h1>Liberta-me</h1>
+                <p>Juliette conseguiu escapar das garras do Restabelecimento e agora encontra refúgio no Ponto
+                    Ômega, um local secreto que abriga outros como ela: pessoas com habilidades extraordinárias. Lá,
+                    ela começa a entender o alcance de seu poder e a treinar para usá-lo, enquanto luta para superar
+                    suas inseguranças e traumas.
+                    Mas a guerra contra o regime está apenas começando, e Juliette logo percebe que o líder implacável
+                    do Setor 45, Warner, não vai desistir dela tão facilmente. À medida que ela se aproxima de
+                    Adam, novos segredos vêm à tona, testando seu relacionamento e suas convicções.
+                    Entre dilemas pessoais e o caos de uma rebelião iminente, Juliette precisará decidir quem ela
+                    realmente é e até onde está disposta a ir para proteger aqueles que ama e para assumir o controle
+                    de sua própria vida.</p>
+            </div>
+        </div>
+        <div class="acesso">
+            <div>
+                <h2>Ler em pdf
+                    <i class="fa-solid fa-file-pdf"></i>:
+                </h2>
+                <button class="botao2">PDF
+                </button>
+            </div>
+            <div>
+                <h2>Comprar
+                    <i class="fa-solid fa-basket-shopping"></i>:
+                </h2>
+                <button class="botao2" onclick="location.href=''">Amazon</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="menu.js">
+    </script>
+</body>
+
+</html>

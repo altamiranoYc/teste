@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafia-me</title>
+    <link rel="stylesheet" href="conf.css">
+    <link rel="stylesheet" href="estilhacame.css">
+    <script src="https://kit.fontawesome.com/99451e1fb0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Jockey+One&family=Nova+Flat&family=Nova+Square&family=Passero+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo" href="index.html">
+        </div>
+        <div class="menu-icone" onclick="alternarMenu();">
+            <img id="icone" src="menu.png" alt="menu">
+        </div>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="autora.html">Autora</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-mobile" id="links">
+        <ul class="menu">
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="autora.html">Autora</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="menu-botao1">
+            <button>
+                <i class="fa-solid fa-globe"></i>
+                Idioma
+            </button>
+            <div class="submenu">
+                <a href="">Português</a>
+                <a href="">Inglês</a>
+            </div>
+        </div>
+        <div class="sobre">
+            <div class="livro-img">
+                <img src="desafiame.webp" alt="">
+            </div>
+            <div class="sobre-livro">
+                <h1>Desafia-me</h1>
+                <p>Juliette Ferrars foi traída de todas as formas possíveis. A verdade sobre seu passado finalmente veio
+                    à tona, abalando tudo o que ela acreditava ser. Agora, com seu poder e sua identidade postos à
+                    prova, Juliette está mais vulnerável do que nunca e, ao mesmo tempo, mais perigosa.
+                    Enquanto forças externas ameaçam destruir a pouca estabilidade que ela construiu, Warner enfrenta
+                    seus próprios demônios, lidando com a culpa, o amor e os segredos que podem afastá-lo de Juliette
+                    para sempre. Ambos devem lutar contra inimigos em comum e os desafios internos que os consomem.
+                    Mas a linha entre confiança e traição é tênue, e a verdadeira batalha será decidir até onde estão
+                    dispostos a ir para proteger um ao outro, e salvar o mundo que está em ruínas.</p>
+            </div>
+        </div>
+        <div class="acesso">
+            <div>
+                <h2>Ler em pdf
+                    <i class="fa-solid fa-file-pdf"></i>:
+                </h2>
+                <button class="botao2">PDF
+                </button>
+            </div>
+            <div>
+                <h2>Comprar
+                    <i class="fa-solid fa-basket-shopping"></i>:
+                </h2>
+                <button class="botao2" onclick="location.href=''">Amazon</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="menu.js">
+    </script>
+</body>
+
+</html>
